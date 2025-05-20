@@ -1,0 +1,33 @@
+name: GelFusion
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - pytorch-cuda=12.1
+  - cudatoolkit=12.1
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - ipykernel
+  - pillow
+  - opencv
+  - diffusers
+  - huggingface_hub
+  - timm=1.0.9
+  - einops=0.8.0
+  - tqdm
+  - wandb
+  - scikit-learn
+  - ffmpeg
+  - ipywidgets
+  - jupyter
+  - rich
+  - loguru
+  - pycryptodomex
+  - python-gnupg
+  - pygame
+  - imagecodecs
